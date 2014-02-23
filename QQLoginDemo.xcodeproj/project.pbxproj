@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75D246F18BA312300A82C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D246E18BA312300A82C6B /* Foundation.framework */; };
+		F75D247118BA312300A82C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D247018BA312300A82C6B /* CoreGraphics.framework */; };
+		F75D247318BA312300A82C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D247218BA312300A82C6B /* UIKit.framework */; };
+		F75D247918BA312300A82C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F75D247718BA312300A82C6B /* InfoPlist.strings */; };
+		F75D247B18BA312300A82C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D247A18BA312300A82C6B /* main.m */; };
+		F75D247F18BA312300A82C6B /* SAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D247E18BA312300A82C6B /* SAppDelegate.m */; };
+		F75D248118BA312300A82C6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75D248018BA312300A82C6B /* Images.xcassets */; };
+		F75D248818BA312300A82C6B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D248718BA312300A82C6B /* XCTest.framework */; };
+		F75D248918BA312300A82C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D246E18BA312300A82C6B /* Foundation.framework */; };
+		F75D248A18BA312300A82C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D247218BA312300A82C6B /* UIKit.framework */; };
+		F75D249218BA312300A82C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F75D249018BA312300A82C6B /* InfoPlist.strings */; };
+		F75D249418BA312300A82C6B /* QQLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D249318BA312300A82C6B /* QQLoginDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75D248B18BA312300A82C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75D246318BA312300A82C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75D246A18BA312300A82C6B;
+			remoteInfo = QQLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F75D246B18BA312300A82C6B /* QQLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75D246E18BA312300A82C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F75D247018BA312300A82C6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F75D247218BA312300A82C6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F75D247618BA312300A82C6B /* QQLoginDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQLoginDemo-Info.plist"; sourceTree = "<group>"; };
+		F75D247818BA312300A82C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F75D247A18BA312300A82C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F75D247C18BA312300A82C6B /* QQLoginDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QQLoginDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F75D247D18BA312300A82C6B /* SAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAppDelegate.h; sourceTree = "<group>"; };
+		F75D247E18BA312300A82C6B /* SAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAppDelegate.m; sourceTree = "<group>"; };
+		F75D248018BA312300A82C6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F75D248618BA312300A82C6B /* QQLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75D248718BA312300A82C6B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F75D248F18BA312300A82C6B /* QQLoginDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQLoginDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F75D249118BA312300A82C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F75D249318BA312300A82C6B /* QQLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLoginDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75D246818BA312300A82C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75D247118BA312300A82C6B /* CoreGraphics.framework in Frameworks */,
+				F75D247318BA312300A82C6B /* UIKit.framework in Frameworks */,
+				F75D246F18BA312300A82C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D248318BA312300A82C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75D248818BA312300A82C6B /* XCTest.framework in Frameworks */,
+				F75D248A18BA312300A82C6B /* UIKit.framework in Frameworks */,
+				F75D248918BA312300A82C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75D246218BA312300A82C6B = {
+			isa = PBXGroup;
+			children = (
+				F75D247418BA312300A82C6B /* QQLoginDemo */,
+				F75D248D18BA312300A82C6B /* QQLoginDemoTests */,
+				F75D246D18BA312300A82C6B /* Frameworks */,
+				F75D246C18BA312300A82C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75D246C18BA312300A82C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75D246B18BA312300A82C6B /* QQLoginDemo.app */,
+				F75D248618BA312300A82C6B /* QQLoginDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75D246D18BA312300A82C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F75D246E18BA312300A82C6B /* Foundation.framework */,
+				F75D247018BA312300A82C6B /* CoreGraphics.framework */,
+				F75D247218BA312300A82C6B /* UIKit.framework */,
+				F75D248718BA312300A82C6B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F75D247418BA312300A82C6B /* QQLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F75D247D18BA312300A82C6B /* SAppDelegate.h */,
+				F75D247E18BA312300A82C6B /* SAppDelegate.m */,
+				F75D248018BA312300A82C6B /* Images.xcassets */,
+				F75D247518BA312300A82C6B /* Supporting Files */,
+			);
+			path = QQLoginDemo;
+			sourceTree = "<group>";
+		};
+		F75D247518BA312300A82C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75D247618BA312300A82C6B /* QQLoginDemo-Info.plist */,
+				F75D247718BA312300A82C6B /* InfoPlist.strings */,
+				F75D247A18BA312300A82C6B /* main.m */,
+				F75D247C18BA312300A82C6B /* QQLoginDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F75D248D18BA312300A82C6B /* QQLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F75D249318BA312300A82C6B /* QQLoginDemoTests.m */,
+				F75D248E18BA312300A82C6B /* Supporting Files */,
+			);
+			path = QQLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		F75D248E18BA312300A82C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75D248F18BA312300A82C6B /* QQLoginDemoTests-Info.plist */,
+				F75D249018BA312300A82C6B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75D246A18BA312300A82C6B /* QQLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75D249718BA312300A82C6B /* Build configuration list for PBXNativeTarget "QQLoginDemo" */;
+			buildPhases = (
+				F75D246718BA312300A82C6B /* Sources */,
+				F75D246818BA312300A82C6B /* Frameworks */,
+				F75D246918BA312300A82C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQLoginDemo;
+			productName = QQLoginDemo;
+			productReference = F75D246B18BA312300A82C6B /* QQLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75D248518BA312300A82C6B /* QQLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75D249A18BA312300A82C6B /* Build configuration list for PBXNativeTarget "QQLoginDemoTests" */;
+			buildPhases = (
+				F75D248218BA312300A82C6B /* Sources */,
+				F75D248318BA312300A82C6B /* Frameworks */,
+				F75D248418BA312300A82C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75D248C18BA312300A82C6B /* PBXTargetDependency */,
+			);
+			name = QQLoginDemoTests;
+			productName = QQLoginDemoTests;
+			productReference = F75D248618BA312300A82C6B /* QQLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75D246318BA312300A82C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = S;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shi_dongdong;
+				TargetAttributes = {
+					F75D248518BA312300A82C6B = {
+						TestTargetID = F75D246A18BA312300A82C6B;
+					};
+				};
+			};
+			buildConfigurationList = F75D246618BA312300A82C6B /* Build configuration list for PBXProject "QQLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F75D246218BA312300A82C6B;
+			productRefGroup = F75D246C18BA312300A82C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75D246A18BA312300A82C6B /* QQLoginDemo */,
+				F75D248518BA312300A82C6B /* QQLoginDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75D246918BA312300A82C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75D247918BA312300A82C6B /* InfoPlist.strings in Resources */,
+				F75D248118BA312300A82C6B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D248418BA312300A82C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75D249218BA312300A82C6B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75D246718BA312300A82C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75D247F18BA312300A82C6B /* SAppDelegate.m in Sources */,
+				F75D247B18BA312300A82C6B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75D248218BA312300A82C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75D249418BA312300A82C6B /* QQLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75D248C18BA312300A82C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75D246A18BA312300A82C6B /* QQLoginDemo */;
+			targetProxy = F75D248B18BA312300A82C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F75D247718BA312300A82C6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75D247818BA312300A82C6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F75D249018BA312300A82C6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75D249118BA312300A82C6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F75D249518BA312300A82C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F75D249618BA312300A82C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75D249818BA312300A82C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQLoginDemo/QQLoginDemo-Prefix.pch";
+				INFOPLIST_FILE = "QQLoginDemo/QQLoginDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F75D249918BA312300A82C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQLoginDemo/QQLoginDemo-Prefix.pch";
+				INFOPLIST_FILE = "QQLoginDemo/QQLoginDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F75D249B18BA312300A82C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QQLoginDemo.app/QQLoginDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQLoginDemo/QQLoginDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQLoginDemoTests/QQLoginDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F75D249C18BA312300A82C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QQLoginDemo.app/QQLoginDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQLoginDemo/QQLoginDemo-Prefix.pch";
+				INFOPLIST_FILE = "QQLoginDemoTests/QQLoginDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75D246618BA312300A82C6B /* Build configuration list for PBXProject "QQLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75D249518BA312300A82C6B /* Debug */,
+				F75D249618BA312300A82C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75D249718BA312300A82C6B /* Build configuration list for PBXNativeTarget "QQLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75D249818BA312300A82C6B /* Debug */,
+				F75D249918BA312300A82C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F75D249A18BA312300A82C6B /* Build configuration list for PBXNativeTarget "QQLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75D249B18BA312300A82C6B /* Debug */,
+				F75D249C18BA312300A82C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75D246318BA312300A82C6B /* Project object */;
+}
