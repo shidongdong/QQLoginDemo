@@ -1,459 +1,1264 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		F75D246F18BA312300A82C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D246E18BA312300A82C6B /* Foundation.framework */; };
-		F75D247118BA312300A82C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D247018BA312300A82C6B /* CoreGraphics.framework */; };
-		F75D247318BA312300A82C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D247218BA312300A82C6B /* UIKit.framework */; };
-		F75D247918BA312300A82C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F75D247718BA312300A82C6B /* InfoPlist.strings */; };
-		F75D247B18BA312300A82C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D247A18BA312300A82C6B /* main.m */; };
-		F75D247F18BA312300A82C6B /* SAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D247E18BA312300A82C6B /* SAppDelegate.m */; };
-		F75D248118BA312300A82C6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75D248018BA312300A82C6B /* Images.xcassets */; };
-		F75D248818BA312300A82C6B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D248718BA312300A82C6B /* XCTest.framework */; };
-		F75D248918BA312300A82C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D246E18BA312300A82C6B /* Foundation.framework */; };
-		F75D248A18BA312300A82C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75D247218BA312300A82C6B /* UIKit.framework */; };
-		F75D249218BA312300A82C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F75D249018BA312300A82C6B /* InfoPlist.strings */; };
-		F75D249418BA312300A82C6B /* QQLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D249318BA312300A82C6B /* QQLoginDemoTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F75D248B18BA312300A82C6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F75D246318BA312300A82C6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F75D246A18BA312300A82C6B;
-			remoteInfo = QQLoginDemo;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		F75D246B18BA312300A82C6B /* QQLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75D246E18BA312300A82C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F75D247018BA312300A82C6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F75D247218BA312300A82C6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F75D247618BA312300A82C6B /* QQLoginDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQLoginDemo-Info.plist"; sourceTree = "<group>"; };
-		F75D247818BA312300A82C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F75D247A18BA312300A82C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F75D247C18BA312300A82C6B /* QQLoginDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QQLoginDemo-Prefix.pch"; sourceTree = "<group>"; };
-		F75D247D18BA312300A82C6B /* SAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAppDelegate.h; sourceTree = "<group>"; };
-		F75D247E18BA312300A82C6B /* SAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAppDelegate.m; sourceTree = "<group>"; };
-		F75D248018BA312300A82C6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F75D248618BA312300A82C6B /* QQLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75D248718BA312300A82C6B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F75D248F18BA312300A82C6B /* QQLoginDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQLoginDemoTests-Info.plist"; sourceTree = "<group>"; };
-		F75D249118BA312300A82C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F75D249318BA312300A82C6B /* QQLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLoginDemoTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		F75D246818BA312300A82C6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F75D247118BA312300A82C6B /* CoreGraphics.framework in Frameworks */,
-				F75D247318BA312300A82C6B /* UIKit.framework in Frameworks */,
-				F75D246F18BA312300A82C6B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F75D248318BA312300A82C6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F75D248818BA312300A82C6B /* XCTest.framework in Frameworks */,
-				F75D248A18BA312300A82C6B /* UIKit.framework in Frameworks */,
-				F75D248918BA312300A82C6B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		F75D246218BA312300A82C6B = {
-			isa = PBXGroup;
-			children = (
-				F75D247418BA312300A82C6B /* QQLoginDemo */,
-				F75D248D18BA312300A82C6B /* QQLoginDemoTests */,
-				F75D246D18BA312300A82C6B /* Frameworks */,
-				F75D246C18BA312300A82C6B /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		F75D246C18BA312300A82C6B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F75D246B18BA312300A82C6B /* QQLoginDemo.app */,
-				F75D248618BA312300A82C6B /* QQLoginDemoTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F75D246D18BA312300A82C6B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F75D246E18BA312300A82C6B /* Foundation.framework */,
-				F75D247018BA312300A82C6B /* CoreGraphics.framework */,
-				F75D247218BA312300A82C6B /* UIKit.framework */,
-				F75D248718BA312300A82C6B /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F75D247418BA312300A82C6B /* QQLoginDemo */ = {
-			isa = PBXGroup;
-			children = (
-				F75D247D18BA312300A82C6B /* SAppDelegate.h */,
-				F75D247E18BA312300A82C6B /* SAppDelegate.m */,
-				F75D248018BA312300A82C6B /* Images.xcassets */,
-				F75D247518BA312300A82C6B /* Supporting Files */,
-			);
-			path = QQLoginDemo;
-			sourceTree = "<group>";
-		};
-		F75D247518BA312300A82C6B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F75D247618BA312300A82C6B /* QQLoginDemo-Info.plist */,
-				F75D247718BA312300A82C6B /* InfoPlist.strings */,
-				F75D247A18BA312300A82C6B /* main.m */,
-				F75D247C18BA312300A82C6B /* QQLoginDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F75D248D18BA312300A82C6B /* QQLoginDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				F75D249318BA312300A82C6B /* QQLoginDemoTests.m */,
-				F75D248E18BA312300A82C6B /* Supporting Files */,
-			);
-			path = QQLoginDemoTests;
-			sourceTree = "<group>";
-		};
-		F75D248E18BA312300A82C6B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F75D248F18BA312300A82C6B /* QQLoginDemoTests-Info.plist */,
-				F75D249018BA312300A82C6B /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		F75D246A18BA312300A82C6B /* QQLoginDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F75D249718BA312300A82C6B /* Build configuration list for PBXNativeTarget "QQLoginDemo" */;
-			buildPhases = (
-				F75D246718BA312300A82C6B /* Sources */,
-				F75D246818BA312300A82C6B /* Frameworks */,
-				F75D246918BA312300A82C6B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = QQLoginDemo;
-			productName = QQLoginDemo;
-			productReference = F75D246B18BA312300A82C6B /* QQLoginDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F75D248518BA312300A82C6B /* QQLoginDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F75D249A18BA312300A82C6B /* Build configuration list for PBXNativeTarget "QQLoginDemoTests" */;
-			buildPhases = (
-				F75D248218BA312300A82C6B /* Sources */,
-				F75D248318BA312300A82C6B /* Frameworks */,
-				F75D248418BA312300A82C6B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F75D248C18BA312300A82C6B /* PBXTargetDependency */,
-			);
-			name = QQLoginDemoTests;
-			productName = QQLoginDemoTests;
-			productReference = F75D248618BA312300A82C6B /* QQLoginDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		F75D246318BA312300A82C6B /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = S;
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = shi_dongdong;
-				TargetAttributes = {
-					F75D248518BA312300A82C6B = {
-						TestTargetID = F75D246A18BA312300A82C6B;
-					};
-				};
-			};
-			buildConfigurationList = F75D246618BA312300A82C6B /* Build configuration list for PBXProject "QQLoginDemo" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = F75D246218BA312300A82C6B;
-			productRefGroup = F75D246C18BA312300A82C6B /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				F75D246A18BA312300A82C6B /* QQLoginDemo */,
-				F75D248518BA312300A82C6B /* QQLoginDemoTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		F75D246918BA312300A82C6B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F75D247918BA312300A82C6B /* InfoPlist.strings in Resources */,
-				F75D248118BA312300A82C6B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F75D248418BA312300A82C6B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F75D249218BA312300A82C6B /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		F75D246718BA312300A82C6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F75D247F18BA312300A82C6B /* SAppDelegate.m in Sources */,
-				F75D247B18BA312300A82C6B /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F75D248218BA312300A82C6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F75D249418BA312300A82C6B /* QQLoginDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F75D248C18BA312300A82C6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F75D246A18BA312300A82C6B /* QQLoginDemo */;
-			targetProxy = F75D248B18BA312300A82C6B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F75D247718BA312300A82C6B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F75D247818BA312300A82C6B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F75D249018BA312300A82C6B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F75D249118BA312300A82C6B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		F75D249518BA312300A82C6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F75D249618BA312300A82C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F75D249818BA312300A82C6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QQLoginDemo/QQLoginDemo-Prefix.pch";
-				INFOPLIST_FILE = "QQLoginDemo/QQLoginDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		F75D249918BA312300A82C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QQLoginDemo/QQLoginDemo-Prefix.pch";
-				INFOPLIST_FILE = "QQLoginDemo/QQLoginDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		F75D249B18BA312300A82C6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QQLoginDemo.app/QQLoginDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QQLoginDemo/QQLoginDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "QQLoginDemoTests/QQLoginDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F75D249C18BA312300A82C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QQLoginDemo.app/QQLoginDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QQLoginDemo/QQLoginDemo-Prefix.pch";
-				INFOPLIST_FILE = "QQLoginDemoTests/QQLoginDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		F75D246618BA312300A82C6B /* Build configuration list for PBXProject "QQLoginDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F75D249518BA312300A82C6B /* Debug */,
-				F75D249618BA312300A82C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F75D249718BA312300A82C6B /* Build configuration list for PBXNativeTarget "QQLoginDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F75D249818BA312300A82C6B /* Debug */,
-				F75D249918BA312300A82C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F75D249A18BA312300A82C6B /* Build configuration list for PBXNativeTarget "QQLoginDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F75D249B18BA312300A82C6B /* Debug */,
-				F75D249C18BA312300A82C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = F75D246318BA312300A82C6B /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>061E8F0FBFFB48F4820D70F6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>79F8487BFFA04B25B92FD627</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>569236D2D2A1473F963953E1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>79F8487BFFA04B25B92FD627</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A21997D928E94FF4B6017D3E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CF055F118F674176A42A34EB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>F75D246218BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D24A718BA326100A82C6B</string>
+				<string>F75D247418BA312300A82C6B</string>
+				<string>F75D248D18BA312300A82C6B</string>
+				<string>F75D246D18BA312300A82C6B</string>
+				<string>F75D246C18BA312300A82C6B</string>
+				<string>A21997D928E94FF4B6017D3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D246318BA312300A82C6B</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>S</string>
+				<key>LastUpgradeCheck</key>
+				<string>0500</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>shi_dongdong</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>F75D248518BA312300A82C6B</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>F75D246A18BA312300A82C6B</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>F75D246618BA312300A82C6B</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>F75D246218BA312300A82C6B</string>
+			<key>productRefGroup</key>
+			<string>F75D246C18BA312300A82C6B</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>F75D246A18BA312300A82C6B</string>
+				<string>F75D248518BA312300A82C6B</string>
+			</array>
+		</dict>
+		<key>F75D246618BA312300A82C6B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F75D249518BA312300A82C6B</string>
+				<string>F75D249618BA312300A82C6B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>F75D246718BA312300A82C6B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F75D247F18BA312300A82C6B</string>
+				<string>F75D24AE18BA346F00A82C6B</string>
+				<string>F75D247B18BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F75D246818BA312300A82C6B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F75D24B218BA398C00A82C6B</string>
+				<string>F75D24B018BA398000A82C6B</string>
+				<string>F75D24A618BA323000A82C6B</string>
+				<string>F75D24A418BA322000A82C6B</string>
+				<string>F75D24A218BA320E00A82C6B</string>
+				<string>F75D24A018BA31FE00A82C6B</string>
+				<string>F75D247118BA312300A82C6B</string>
+				<string>F75D249E18BA31C700A82C6B</string>
+				<string>F75D247318BA312300A82C6B</string>
+				<string>F75D246F18BA312300A82C6B</string>
+				<string>061E8F0FBFFB48F4820D70F6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F75D246918BA312300A82C6B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F75D24A818BA326100A82C6B</string>
+				<string>F75D247918BA312300A82C6B</string>
+				<string>F75D248118BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F75D246A18BA312300A82C6B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F75D249718BA312300A82C6B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CF055F118F674176A42A34EB</string>
+				<string>F75D246718BA312300A82C6B</string>
+				<string>F75D246818BA312300A82C6B</string>
+				<string>F75D246918BA312300A82C6B</string>
+				<string>569236D2D2A1473F963953E1</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>QQLoginDemo</string>
+			<key>productName</key>
+			<string>QQLoginDemo</string>
+			<key>productReference</key>
+			<string>F75D246B18BA312300A82C6B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>F75D246B18BA312300A82C6B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>QQLoginDemo.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>F75D246C18BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D246B18BA312300A82C6B</string>
+				<string>F75D248618BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D246D18BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D24B118BA398C00A82C6B</string>
+				<string>F75D24AF18BA398000A82C6B</string>
+				<string>F75D24A518BA323000A82C6B</string>
+				<string>F75D24A318BA322000A82C6B</string>
+				<string>F75D24A118BA320E00A82C6B</string>
+				<string>F75D249F18BA31FE00A82C6B</string>
+				<string>F75D249D18BA31C700A82C6B</string>
+				<string>F75D246E18BA312300A82C6B</string>
+				<string>F75D247018BA312300A82C6B</string>
+				<string>F75D247218BA312300A82C6B</string>
+				<string>F75D248718BA312300A82C6B</string>
+				<string>79F8487BFFA04B25B92FD627</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D246E18BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D246F18BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D246E18BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D247018BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D247118BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D247018BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D247218BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D247318BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D247218BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D247418BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D247D18BA312300A82C6B</string>
+				<string>F75D247E18BA312300A82C6B</string>
+				<string>F75D24AC18BA346F00A82C6B</string>
+				<string>F75D24AD18BA346F00A82C6B</string>
+				<string>F75D248018BA312300A82C6B</string>
+				<string>F75D247518BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>QQLoginDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247518BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D247618BA312300A82C6B</string>
+				<string>F75D247718BA312300A82C6B</string>
+				<string>F75D247A18BA312300A82C6B</string>
+				<string>F75D247C18BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247618BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>QQLoginDemo-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247718BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D247818BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247818BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247918BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D247718BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D247A18BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247B18BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D247A18BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D247C18BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>QQLoginDemo-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247D18BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247E18BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D247F18BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D247E18BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D248018BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D248118BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D248018BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D248218BA312300A82C6B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F75D249418BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F75D248318BA312300A82C6B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F75D248818BA312300A82C6B</string>
+				<string>F75D248A18BA312300A82C6B</string>
+				<string>F75D248918BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F75D248418BA312300A82C6B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F75D249218BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F75D248518BA312300A82C6B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F75D249A18BA312300A82C6B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>F75D248218BA312300A82C6B</string>
+				<string>F75D248318BA312300A82C6B</string>
+				<string>F75D248418BA312300A82C6B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>F75D248C18BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>QQLoginDemoTests</string>
+			<key>productName</key>
+			<string>QQLoginDemoTests</string>
+			<key>productReference</key>
+			<string>F75D248618BA312300A82C6B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>F75D248618BA312300A82C6B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>QQLoginDemoTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>F75D248718BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>F75D248818BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D248718BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D248918BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D246E18BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D248A18BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D247218BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D248B18BA312300A82C6B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>F75D246318BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>F75D246A18BA312300A82C6B</string>
+			<key>remoteInfo</key>
+			<string>QQLoginDemo</string>
+		</dict>
+		<key>F75D248C18BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>F75D246A18BA312300A82C6B</string>
+			<key>targetProxy</key>
+			<string>F75D248B18BA312300A82C6B</string>
+		</dict>
+		<key>F75D248D18BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D249318BA312300A82C6B</string>
+				<string>F75D248E18BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>QQLoginDemoTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D248E18BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D248F18BA312300A82C6B</string>
+				<string>F75D249018BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D248F18BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>QQLoginDemoTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D249018BA312300A82C6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F75D249118BA312300A82C6B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D249118BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D249218BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D249018BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D249318BA312300A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>QQLoginDemoTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D249418BA312300A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D249318BA312300A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D249518BA312300A82C6B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F75D249618BA312300A82C6B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F75D249718BA312300A82C6B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F75D249818BA312300A82C6B</string>
+				<string>F75D249918BA312300A82C6B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>F75D249818BA312300A82C6B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A21997D928E94FF4B6017D3E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD)</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>NO</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>/Users/shi_dongdong/Desktop/Connect_IOS_SDK_V1.5.1</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>QQLoginDemo/QQLoginDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>QQLoginDemo/QQLoginDemo-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string>-fobjc-arc</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>VALID_ARCHS</key>
+				<string>armv7 armv7s</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F75D249918BA312300A82C6B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A21997D928E94FF4B6017D3E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD)</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>NO</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>/Users/shi_dongdong/Desktop/Connect_IOS_SDK_V1.5.1</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>QQLoginDemo/QQLoginDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>QQLoginDemo/QQLoginDemo-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string>-fobjc-arc</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>VALID_ARCHS</key>
+				<string>armv7 armv7s</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F75D249A18BA312300A82C6B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F75D249B18BA312300A82C6B</string>
+				<string>F75D249C18BA312300A82C6B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>F75D249B18BA312300A82C6B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/QQLoginDemo.app/QQLoginDemo</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>QQLoginDemo/QQLoginDemo-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>QQLoginDemoTests/QQLoginDemoTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F75D249C18BA312300A82C6B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/QQLoginDemo.app/QQLoginDemo</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>QQLoginDemo/QQLoginDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>QQLoginDemoTests/QQLoginDemoTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F75D249D18BA31C700A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>TencentOpenAPI.framework</string>
+			<key>path</key>
+			<string>../Connect_IOS_SDK_V1.5.1/TencentOpenAPI.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D249E18BA31C700A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D249D18BA31C700A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D249F18BA31FE00A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SystemConfiguration.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/SystemConfiguration.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D24A018BA31FE00A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D249F18BA31FE00A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D24A118BA320E00A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>compiled.mach-o.dylib</string>
+			<key>name</key>
+			<string>libiconv.dylib</string>
+			<key>path</key>
+			<string>usr/lib/libiconv.dylib</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D24A218BA320E00A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D24A118BA320E00A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D24A318BA322000A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>compiled.mach-o.dylib</string>
+			<key>name</key>
+			<string>libsqlite3.dylib</string>
+			<key>path</key>
+			<string>usr/lib/libsqlite3.dylib</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D24A418BA322000A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D24A318BA322000A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D24A518BA323000A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreTelephony.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreTelephony.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D24A618BA323000A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D24A518BA323000A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D24A718BA326100A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>path</key>
+			<string>TencentOpenApi_IOS_Bundle.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D24A818BA326100A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D24A718BA326100A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D24AC18BA346F00A82C6B</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SRootViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D24AD18BA346F00A82C6B</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SRootViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75D24AE18BA346F00A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D24AD18BA346F00A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D24AF18BA398000A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>compiled.mach-o.dylib</string>
+			<key>name</key>
+			<string>libstdc++.dylib</string>
+			<key>path</key>
+			<string>usr/lib/libstdc++.dylib</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D24B018BA398000A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D24AF18BA398000A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F75D24B118BA398C00A82C6B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>compiled.mach-o.dylib</string>
+			<key>name</key>
+			<string>libz.dylib</string>
+			<key>path</key>
+			<string>usr/lib/libz.dylib</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>F75D24B218BA398C00A82C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F75D24B118BA398C00A82C6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>F75D246318BA312300A82C6B</string>
+</dict>
+</plist>

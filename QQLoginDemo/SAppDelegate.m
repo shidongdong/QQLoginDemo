@@ -7,7 +7,8 @@
 //
 
 #import "SAppDelegate.h"
-
+#import <TencentOpenAPI/TencentOAuth.h>
+#import "SRootViewController.h"
 @implementation SAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,9 +16,26 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    SRootViewController * root = [[SRootViewController alloc] init];
+    self.window.rootViewController = root;
+    [root release];
+    
+    BOOL ILS =  [AFNetworkReachabilityManager sharedManager].reachableViaWiFi;
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    return [TencentOAuth HandleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    return [TencentOAuth HandleOpenURL:url];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
